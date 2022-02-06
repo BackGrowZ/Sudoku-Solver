@@ -1,0 +1,49 @@
+html,
+body,
+#root {
+  background: #eee;
+  height: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+}
+
+.case {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grille {
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+.sudoku {
+  background: #efefef;
+  width: 362px;
+  height: 365px;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+.borderT {
+  border-top: 1px solid black;
+}
+.borderB {
+  border-bottom: 1px solid black;
+}
+.borderL {
+  border-left: 1px solid black;
+}
+.borderR {
+  border-right: 1px solid black;
+}
